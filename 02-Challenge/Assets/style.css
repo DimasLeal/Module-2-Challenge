@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(221, 221, 221);
+}
+
+#title {
+    padding: 2px;
+    background-color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    align-items: center;
+}
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+    background-color: red;
+}
+nav {
+    padding: 20px;
+    text-align: right;
+    background-color: lightgreen;
+    margin: 0 0 50px 0;
+}
+
+nav > a {
+    padding: 15px 10px 15px 40px ;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+a {
+text-decoration: none;
+}
+
+div {
+    display: flex;
+    flex-direction: row ;
+    padding: 0 0 20px 0;
+}
+
+#subtitle {
+    display: flex;
+    align-items: center;
+    margin: 0 40px 0 40px;
+    text-align: right;
+
+}
+
+#AboutMe {
+ 
+}
+
+p {
+    padding: 0 0 0 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
+}
+
+img {
+    padding: 0 0 0 100px;
+    filter: brightness(50%)
+}
+
+img:hover {
+    filter: brightness(100%);
+}
+
+.imgtext {
+    display: inline-block;
+   position: relative;
+}
+
+h2 {
+    color: white;
+}
+#lifeguard {
+    position: absolute;
+    top: 60px;
+     left: 170px;
+}
+
+#carwash {
+    position: absolute;
+    left: 580px;
+    top: 60px;
+}
+
+#dj {
+    position: absolute;
+    left: 200px;
+    top: 270px;
+}
+
+#uber {
+    position: absolute;
+    left: 680px;
+    top: 270px;
+}
+
+ul {
+    padding: 0 0 0 100px;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    border-left: solid;
+    border-color: lightgreen;
+}
